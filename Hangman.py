@@ -28,7 +28,7 @@ def checkguess(name, guess, guessed_char, avlbl):
     else:
         print("not found")
         avlbl -= 1
-        print(f"{avlbl} guesses remaining")
+        print(f"{avlbl} hooves on the hog")
         return guess, avlbl
 
 
@@ -43,7 +43,7 @@ print("Let's start!\nGuess a letter.\n")
 print(guessed_so_far)
 
 while guessed_so_far != name_list and available > 0:
-    guessed_letter = input("Your guess? ")
+    guessed_letter = input("You. hit one")
     guessed_so_far, available = checkguess(name_list, guessed_so_far, guessed_letter, available)
     print (guessed_so_far)
 
