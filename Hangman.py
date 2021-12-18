@@ -48,7 +48,7 @@ while guessed_so_far != name_list and available > 0:
     print (guessed_so_far)
 
 if available == 0:
-    print("You lose.")
+    print("hacked!")
 
 if guessed_so_far == name_list:
-    print("You win!")
+    print("hung.")
