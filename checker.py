@@ -36,7 +36,7 @@ while i < (len(License_cards)) :
             break
             pass
         elif License_cards[i].Status == "Red":
-            print("Arrest this man!")
+            print("I recognize this man!")
             break
             pass
     else: print ("not a match")
